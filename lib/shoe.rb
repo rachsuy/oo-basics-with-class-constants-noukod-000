@@ -8,7 +8,7 @@ class Shoe
     
    if !(BRANDS.include?(@brand))
     
-    GENRES << brand
+    BRANDS << brand
    end
     
   end
